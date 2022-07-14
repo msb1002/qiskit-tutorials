@@ -4,7 +4,7 @@
 
 Relationship of Input-Algorithm-Output sequence
 
-![alt text](..assets/1.jpg)
+![alt text](..assets/1.png)
 
 Significant advantage in complex mathematical problems such as **integer factorization**
 *p* $\times$ *q* = *x*
@@ -96,6 +96,19 @@ And this is the H-gate expression.
 
 ## Entangled State
 
+Number of qubits = number of digits to express (e.g. 2 qubits = 00,01,10,11)
+
+Two different combinations : 
+![alt text](../assets/11.png)
+
+- For |+0> the qubit on the left can be described by the single qubit 
+- So the  state is a two qubit state vector that actually describes a pair of single qubit states: |+> and |0>
+
+In a 4 qubit ordering, the index goes |3,2,1,0>
+
+When calculating for the $$|a\rangle$$ = $$ \vector(a_0,b_0)$$ and $$|b\rangle$$ = $$ \vector(a_1,b_1)$$:
+
+$$|b a\rangle$$ = $$ \vector(a_0*b_0,a_0*b_1,a_1*b_0,a_1*b_1)$$
 
 
 
@@ -112,4 +125,9 @@ And this is the H-gate expression.
 
 
 
-&copy;
+
+
+
+
+&copy; All sources from IBM Quantum Computing / Qiskit Tutorial
+&copy; Sun Bin Mun 
