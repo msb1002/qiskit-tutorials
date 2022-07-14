@@ -106,9 +106,9 @@ Two different combinations :
 
 In a 4 qubit ordering, the index goes |3,2,1,0>
 
-When calculating for the $$|a\rangle$$ = $$ \vector(a_0,b_0)$$ and $$|b\rangle$$ = $$ \vector(a_1,b_1)$$:
+When calculating for the $$|a\rangle =  \vector(a_0,b_0)$$ and $$|b\rangle$$ = $$ \vector(a_1,b_1)$$:
 
-$$|b a\rangle$$ = $$ \vector(a_0*b_0,a_0*b_1,a_1*b_0,a_1*b_1)$$
+$$|b a\rangle =  \vector(a_0*b_0,a_0*b_1,a_1*b_0,a_1*b_1)$$
 
 
 
