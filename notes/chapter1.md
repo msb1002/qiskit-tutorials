@@ -110,6 +110,35 @@ When calculating for the $|a\rangle =  \vec(a_0,b_0)$ and $|b\rangle$$ = $$ \vec
 
 $$|b a\rangle =  \vec(a_0*b_0,a_0*b_1,a_1*b_0,a_1*b_1)$$
 
+Again, these rules follow from standard probability rules: If we want to find the probability of two unrelated events occurring, we multiply their probabilities together
+
+![alt text](../assets/12.png)
+
+
+If it cannot be expressed in vector form, this represents a different kind of two-qubit state, distinct from the product states, which cannot be described as combination of simple single qubit states. These are known as **entangled states**.
+
+
+Another example of entangled state is the following:
+
+![alt text](../assets/13.png)
+
+### Entangling Gates
+
+Quantum computations typically start in a product state. Specifically, they start in the simplest product state of all, where all qubits are in the state |0>. To create entanglement, we need to apply multi-qubit gates
+
+- *|->* : This is the single-qubit quantum state where the amplitude of state 0 is 1/√2, and the amplitude of state 1 is -1/√2.
+- *|+>* : This is the single-qubit quantum state where the amplitudes of states 0 and 1 are both 1/√2.
+
+**CX gate** : This is the CNOT we saw in The atoms of computation. It's a gate that performs an X-gate on the target qubit only if the control qubit is 1.
+
+**CZ gate** : This is a new gate. It's similar to the CNOT, this gate performs a Z-gate on the target qubit only if the control qubit is 1.
+
+Refer to the file **notes_extension/01_introduction.ipynb**
+
+
+
+
+
 
 
 
